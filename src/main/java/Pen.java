@@ -23,12 +23,6 @@ public class Pen {
     }
 
     public boolean canWrite() {
-        // if clicked or not
-        if(clicked) {
-            //  return true if clicked open
-            return true;
-        }
-        // return false if clicked closed
-        return false;
+        return clicked;
     }
 }
