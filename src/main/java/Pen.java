@@ -15,7 +15,7 @@ public class Pen {
     public void click() {
         // change to opposite
         // if clicked is true/false
-        if(clicked == true) {
+        if(clicked) {
             clicked = false;
         } else {
             clicked = true;
